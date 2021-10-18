@@ -1,10 +1,4 @@
-<!--
- * @Author: yuyongxing
- * @Date: 2021-10-18 11:40:44
- * @LastEditors: yuyongxing
- * @LastEditTime: 2021-10-18 11:51:48
- * @Description: 
--->
+基于vue2.0+mintUi即开即用的项目模板，内部已经配置好css预编译工具、路由、vuex
 # vue-mobile-template
 
 环境基于 vue: 2.6.11,vue/cli: 4.5.13, node:v12.13.1
