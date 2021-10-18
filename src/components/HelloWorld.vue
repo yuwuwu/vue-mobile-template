@@ -2,8 +2,8 @@
  * @Author: yuyongxing
  * @Date: 2021-10-18 11:40:35
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-10-18 13:41:26
- * @Description: 
+ * @LastEditTime: 2021-10-18 15:38:49
+ * @Description:
 -->
 <template>
   <div class="hello">
@@ -15,16 +15,19 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: {
+      type: String,
+      default: ""
+    }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.hello{
+.hello {
   width: 100%;
-  p{
+  p {
     text-align: center;
     color: blue;
   }
