@@ -2,29 +2,25 @@
  * @Author: yuyongxing
  * @Date: 2021-10-18 11:40:35
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-10-18 18:05:57
+ * @LastEditTime: 2021-10-19 14:29:28
  * @Description:
 -->
 <template>
   <div class="home">
     <img src="../assets/logo.png">
     <HelloWorld msg="hello vue-mobile-template" />
-    <button @click="showToast" />
-    <mt-button type="default">
-      default
-    </mt-button>
-    <mt-button type="primary">
+    <mt-button
+      type="primary"
+      @click="showToast"
+    >
       primary
-    </mt-button>
-    <mt-button type="danger">
-      danger
     </mt-button>
   </div>
 </template>
 
 <script>
-import { Toast } from "mint-ui"
 import HelloWorld from '@/components/HelloWorld.vue'
+import { login } from '@/api/public.js'
 
 export default {
   name: 'Home',
@@ -33,7 +29,12 @@ export default {
   },
   methods: {
     showToast() {
-      Toast("13123")
+      login().then(res => {
+        console.log(res)
+        if (res.code === 1) {
+          this.$toast("成功")
+        }
+      })
     }
   }
 }
