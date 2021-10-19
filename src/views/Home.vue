@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-10-18 11:40:35
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-10-19 14:29:28
+ * @LastEditTime: 2021-10-19 14:39:27
  * @Description:
 -->
 <template>
@@ -46,7 +46,7 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   img {
-    width: 100px;
+    width: 2rem;
   }
 }
 </style>
