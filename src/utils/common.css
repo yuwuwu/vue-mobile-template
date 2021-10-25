@@ -12,7 +12,7 @@ body {
     text-size-adjust: 100% !important;
     -moz-text-size-adjust: 100% !important;
 }
-
+/* 覆盖输入框默认样式 */
 input {
     background: none;
     outline: none;
