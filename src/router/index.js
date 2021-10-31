@@ -2,13 +2,15 @@
  * @Author: yuyongxing
  * @Date: 2021-10-18 11:40:35
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-10-25 17:39:51
+ * @LastEditTime: 2021-10-29 17:25:56
  * @Description:
  */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from '../views/login.vue'
+import KeepAliveList from '../views/keepAlive/list.vue'
+import KeepAliveDeatil from '../views/keepAlive/detail'
 
 Vue.use(VueRouter)
 
@@ -16,14 +18,26 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    meta: { title: "主页", keepAlive: true },
+    meta: { title: "主页", keepAlive: false },
     component: Home
   },
   {
     path: '/login',
     name: 'login',
-    meta: { title: "登录", keepAlive: true },
+    meta: { title: "登录", keepAlive: false },
     component: Login
+  },
+  {
+    path: '/keepAlive/list',
+    name: 'KeepAliveList',
+    meta: { title: "列表", keepAlive: true },
+    component: KeepAliveList
+  },
+  {
+    path: '/keepAlive/detail',
+    name: 'KeepAliveDeatil',
+    meta: { title: "详情", keepAlive: false },
+    component: KeepAliveDeatil
   }
 ]
 
