@@ -2,12 +2,11 @@
  * @Author: yuyongxing
  * @Date: 2021-10-18 14:18:23
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-10-18 15:41:39
+ * @LastEditTime: 2021-11-24 14:27:13
  * @Description:
  */
 import axios from 'axios'
-import { Toast } from 'mint-ui'
-
+import { Toast } from 'vant'
 const domain = '/stage-api/system/'
 const http = axios.create({
   baseURL: domain,
