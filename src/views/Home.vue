@@ -2,19 +2,19 @@
  * @Author: yuyongxing
  * @Date: 2021-10-18 11:40:35
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-10-19 14:39:27
+ * @LastEditTime: 2021-11-24 14:26:10
  * @Description:
 -->
 <template>
   <div class="home">
     <img src="../assets/logo.png">
     <HelloWorld msg="hello vue-mobile-template" />
-    <mt-button
+    <van-button
       type="primary"
       @click="showToast"
     >
       primary
-    </mt-button>
+    </van-button>
   </div>
 </template>
 
