@@ -2,10 +2,10 @@
  * @Author: yuyongxing
  * @Date: 2021-10-18 11:40:44
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-24 14:27:25
+ * @LastEditTime: 2021-11-24 14:29:14
  * @Description: 
 -->
-基于vue2.x+vant 即开即用的项目模板，内部已经配置好css预编译工具、路由、vuex
+基于vue2.x+vant 的项目模板，只提供最基本的项目框架，内部已经配置好css预编译工具、路由、vuex
 # vue-mobile-template
 
 环境基于 vue: 2.6.11,vue/cli: 4.5.13, node:v12.13.1
