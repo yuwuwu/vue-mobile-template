@@ -2,13 +2,13 @@
  * @Author: yuyongxing
  * @Date: 2021-10-18 11:40:35
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-24 14:26:10
+ * @LastEditTime: 2021-11-24 14:58:09
  * @Description:
 -->
 <template>
   <div class="home">
     <img src="../assets/logo.png">
-    <HelloWorld msg="hello vue-mobile-template" />
+    <HelloWorld msg="hello world" />
     <van-button
       type="primary"
       @click="showToast"

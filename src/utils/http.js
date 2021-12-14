@@ -2,12 +2,12 @@
  * @Author: yuyongxing
  * @Date: 2021-10-18 14:18:23
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-24 14:27:13
+ * @LastEditTime: 2021-12-14 17:49:46
  * @Description:
  */
 import axios from 'axios'
 import { Toast } from 'vant'
-const domain = '/stage-api/system/'
+const domain = '/api/'
 const http = axios.create({
   baseURL: domain,
   timeout: 50000
