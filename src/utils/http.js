@@ -2,12 +2,12 @@
  * @Author: yuyongxing
  * @Date: 2021-10-18 14:18:23
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-12-14 17:49:46
+ * @LastEditTime: 2022-04-21 09:36:21
  * @Description:
  */
 import axios from 'axios'
 import { Toast } from 'vant'
-const domain = '/api/'
+const domain = process.env.VUE_APP_BASE_API
 const http = axios.create({
   baseURL: domain,
   timeout: 50000
